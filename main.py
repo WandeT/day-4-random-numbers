@@ -1,10 +1,9 @@
 import random
 
-random_side = random.randint(0, 1)
-if random_side == 1:
-  print("Heads")
-else:
-  print("Tails")
+names=input("Write everyone's names separtaed by a comma\n")
+names_list=names.split(",")
+print(names_list)
 
-random_integer = random.randint(1,100)
-random_float
+payer=random.choice(names_list)
+print(payer, "pays the bill")
+
